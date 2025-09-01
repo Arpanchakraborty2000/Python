@@ -35,3 +35,10 @@ print("new value of this : ",np.array(arr[2]))
 print("particular value of this array ",np.array(arr[1:4]))
 
 
+##### creating different typr of array
+print("##################################")
+
+arr3 = np.arange(1,20,2).reshape(2,5)
+print(arr3)
+
+print(np.zeros(1,5))
