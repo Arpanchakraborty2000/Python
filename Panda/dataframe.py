@@ -24,3 +24,14 @@ print(type(df['col1']) )
 print("#################################")
 print(df[['col1','col2','col3']]) # It will print 3 col .....
 
+## By Using Row index name using loc  --------------
+print("#################################")
+print(df.loc[['row3','row4']])
+
+
+### Searching with row index and column index number 
+
+print("#################################")
+print(df.head())
+print("#################################")
+print(df.iloc[2:4,0:2])
