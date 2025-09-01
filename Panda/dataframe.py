@@ -35,3 +35,9 @@ print("#################################")
 print(df.head())
 print("#################################")
 print(df.iloc[2:4,0:2])
+
+
+## Convert dataframe to array
+print("#################################")
+print("Convert dataframe to array ")
+print(df.iloc[2:4,0:2].values)
