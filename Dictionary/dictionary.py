@@ -1,0 +1,13 @@
+## Dictionary dicclaration ......
+add=dict(fast_name ="Arpan",last_naem="chakraborty", age="30",location = "Madhyamgram")
+print(add)
+print(type(add))
+print(add["fast_name"])  ## Index calling .......
+
+
+## Another type of dictionary declaration  ..........
+
+my_dict={"car1": "TATA", "car2":"nano"}
+print(my_dict)
+print(type(my_dict))
+print(my_dict['car1']) ## Index calling .......
